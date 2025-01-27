@@ -1,0 +1,44 @@
+body{
+    background-color: blueviolet;
+}
+
+header{
+    min-height: 30vh;
+    border-color: black;
+    border-width: 2px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.slider{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+    position: relative;
+    margin: auto;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#précedent{
+    height: 100px;
+    position: absolute;
+    left: 15%;
+    bottom: 160px;
+    cursor: pointer;
+}
+
+#suivant{
+    height: 100px;
+    position: absolute;
+    right: 15%;
+    bottom: 160px;
+    cursor: pointer;
+}

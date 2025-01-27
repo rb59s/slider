@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon slider</title>
+    <link rel="stylesheet" href="slider.css">
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_back_ios" />  -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_back_ios|arrow_forward_ios" /> -->
+     <script src="./slide.js" defer></script>
+</head>
+<body>
+    <header><h1>Mon slider</h1></header>
+    <main>
+        <div class="slider">
+            <span class="material-symbols-outlined" id="précedent" onclick="changedeslide(-1)">
+                arrow_back_ios
+            </span>
+            <img src="./slide2/brother.webp" alt="brother" id="slide">
+            <span class="material-symbols-outlined" id="suivant" onclick="changedeslide(1)">
+                arrow_forward_ios
+            </span>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+</html>
